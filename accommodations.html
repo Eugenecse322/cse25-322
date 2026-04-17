@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Accommodations – The Desert Resort</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="data:image/png;base64,"
+             alt="The Desert Resort Logo"
+             class="navbar-logo">
+        <span class="brand-text">THE <span class="brand-accent">DESERT</span> RESORT</span>
+      </a>
+      <div class="navbar-nav ms-auto d-flex flex-row align-items-center flex-wrap">
+        <a class="nav-link-btn nav-link" href="index.html">Home</a>
+        <a class="nav-link-btn nav-link" href="about.html">About</a>
+        <a class="nav-link-btn nav-link active-nav" href="accommodations.html">Accommodations</a>
+        <a class="nav-link-btn nav-link" href="experiences.html">Experiences</a>
+        <a class="nav-link-btn nav-link" href="gallery.html">Gallery</a>
+        <a class="nav-link-btn nav-link" href="contact.html">Contact</a>
+        <a class="nav-book-btn nav-link" href="contact.html#booking">Book Now</a>
+      </div>
+    </div>
+  </nav>
+  <div class="back-home-wrap">
+    <a href="index.html" class="back-home-btn">
+      &#8592; Back to Home
+    </a>
+  </div>
+
+  <section class="page-hero"">
+    <div class="page-hero-content">
+      <p class="hero-eyebrow">Where You'll Stay</p>
+      <h1 class="hero-title">Luxury<br><em>Accommodations</em></h1>
+      <p class="hero-subtitle">Choose from three distinct categories of handcrafted desert retreats, each designed to harmonise with the natural landscape.</p>
+    </div>
+  </section>
+
+  <section class="accomm-section" id="accommodations">
+    <div class="container">
+      <div class="row align-items-center g-5 mb-5 pb-5" ">
+        <div class="col-lg-6">
+          <div class="room-img-placeholder">[ Luxury Tent Photo ]</div>
+        </div>
+        <div class="col-lg-6">
+          <div class="room-tag">Accommodation</div>
+          <div class="room-title" 
+          <p class="section-body mt-3">Authentic canvas tents reimagined with plush furnishings, private decks overlooking the dunes, and en-suite bathrooms with outdoor showers. Each tent is positioned to capture the most breathtaking views of the surrounding desert landscape.</p>
+          </ul>
+          <a href="contact.html#booking" class="btn-primary-resort">Book This Suite</a>
+        </div>
+      </div>
+      <div class="row align-items-center g-5 mb-5 pb-5 flex-lg-row-reverse"
+        <div class="col-lg-6">
+          <div class="room-img-placeholder" 
+        </div>
+        <div class="col-lg-6">
+          <div class="room-tag">Premium</div>
+          <div class="room-title" style="font-size:2rem;">Private Desert Suites</div>
+          <p class="section-body mt-3">Standalone villas with infinity-edge plunge pools, panoramic desert views, a private butler, and a dedicated stargazing terrace. The ultimate in seclusion and indulgence, designed for those who accept nothing less than perfection.</p>
+          </ul>
+          <a href="contact.html#booking" class="btn-primary-resort">Book This Suite</a>
+        </div>
+      </div>
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <div class="room-img-placeholder">[ Family Villa Photo ]</div>
+        </div>
+        <div class="col-lg-6">
+          <div class="room-tag">Family</div>
+          <div class="room-title" style="font-size:2rem;">Family Villas</div>
+          <p class="section-body mt-3">Spacious multi-room villas designed for families, featuring interconnected suites, a private pool, kids' safari programme, and dedicated family guides. We believe the greatest adventures are shared with the ones you love most.</p>
+          <a href="contact.html#booking" class="btn-primary-resort">Book This Suite</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="contact-footer">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-4">
+          <div class="footer-brand">The Desert Resort</div>
+          <p class="footer-tagline">Africa's premier luxury desert escape. A once-in-a-lifetime experience crafted for the world's most discerning travellers.</p>
+          <div class="social-icons mt-4">
+            <a href="#">IG</a><a href="#">FB</a><a href="#">TW</a><a href="#">YT</a>
+          </div>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="footer-heading">Explore</div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="accommodations.html">Accommodations</a></li>
+            <li><a href="experiences.html">Experiences</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-2 col-6">
+          <div class="footer-heading">Experiences</div>
+          <ul class="footer-links">
+            <li><a href="experiences.html">Camel Safari</a></li>
+            <li><a href="experiences.html">Dune Bashing</a></li>
+            <li><a href="experiences.html">Stargazing</a></li>
+            <li><a href="experiences.html">Desert Spa</a></li>
+            <li><a href="experiences.html">Sundowner</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <div class="footer-heading">Newsletter</div>
+          <div class="d-flex">
+            <input type="email" placeholder="your@email.com" style="background:;">
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; 2026 The Desert Resort. All rights reserved.</span>
+        <span>Privacy Policy &nbsp;|&nbsp; Terms of Service &nbsp;|&nbsp; Cookie Policy</span>
+      </div>
+    </div>
+  </footer>
+  <script>
+    window.addEventListener('scroll', () => {
+      const nav = document.querySelector('.navbar');
+      nav.style.background = window.scrollY > 60 ? 'rgba(47,79,79,0.98)' : 'rgba(47,79,79,0.95)';
+    });
+  </script>
+</body>
+</html>
